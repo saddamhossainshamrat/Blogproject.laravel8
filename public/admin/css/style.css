@@ -1,0 +1,57 @@
+.pagination {
+  margin-bottom: 5em;
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination li {
+  padding: 0 7px;
+}
+    .pagination li a {
+      border-radius: 50% !important;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      line-height: 40px;
+      display: block;
+      color: #0056b3;
+    }
+
+
+      .pagination li a:focus, .pagination li a:active {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important; }
+      .pagination li a:hover {
+        background: #2f89fc;
+        color: #fff;
+        border: 1px solid transparent; 
+        
+      }
+        
+    .pagination li.active a {
+      border: 1px solid transparent !important; 
+
+    }
+      .pagination li a.next {
+        display: inline;
+        background: none;
+        color: #2f89fc;
+        border: 1px solid transparent;
+        line-height: 40px;
+    }
+      .profile {
+        float: left;
+        line-height: .8;
+        margin-left: .8rem;
+        margin-right: .0.25rem;
+        margin-top: 1px;
+        max-height: 33px;
+        width: auto;
+    }
+    .proimg{
+      margin-top: 5px;
+      height: 200px; 
+       width: 160px; 
+       overflow:hidden;
+    }
